@@ -1,20 +1,17 @@
-ABOUT 2048 GAMe
-This version of 2048 GAMe works on terminal with the use of 
-
-
-
-GAME INFO
-
-By moving the tiles to left, right,up or down you have to score upto the target 2048(default).
-By default the size of matrix will be 5x5 and target score will be 2048.
-You can change the default size of matrix and target score by giving inpput in the command line.
-e.g.:-
-type in command line
-python 2048bytks.py --n 3 --w 128
-to set the size of matrix to 3 and the target score to 128.
-
-You can make moves by the keys A,S,D,W
-A - Left
-W - Up
-S - Down
-D - Right
+# 2048 GAME IN PYTHON
+# GAME INFO
+   This version of 2048 game works on terminal and based on original 2048 GAMe.
+   It is dynamic i.e user can enter the required board size and wining value(default: B.S:5*5 and W.N:2048 : In case of invalid or no        input default value will be taken) and restart the game after win or loss by using (Y/N).
+#  PLAYING THE GAME
+1. Player have to input the size of the matrix and winning number.
+2. If Player does not input size and winning number or give inavild input, it will take default value(5*5 and 2048).
+3. Player have to move the tiles left, right, up or down and have to score the winning number(default 2048).
+4. After each valid move a '2' will be generated at a random place having value 0(i.e. empty space).
+4. Player have to make moves by keys (W/A/S/D)
+   > A: (LEFT)
+   > D: (RIGHT)
+   > W: (UP)
+   > S: (DOWN)
+5. If winning number is in the matrix, player wins the game.
+6. If there is not any 0 in the matrix and if no more valid moves are there then player loses the game.
+7. Player can restart the game after wining or losing.
