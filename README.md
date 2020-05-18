@@ -1,7 +1,10 @@
-ABOUT
-This is recreation of the game 2048 coded in python3.
+ABOUT 2048 GAMe
+This version of 2048 GAMe works on terminal with the use of 
+
+
 
 GAME INFO
+
 By moving the tiles to left, right,up or down you have to score upto the target 2048(default).
 By default the size of matrix will be 5x5 and target score will be 2048.
 You can change the default size of matrix and target score by giving inpput in the command line.
